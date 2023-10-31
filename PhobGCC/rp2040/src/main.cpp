@@ -19,10 +19,10 @@ DataCapture _dataCapture;
 //This gets called by the comms library
 GCReport __no_inline_not_in_flash_func(buttonsToGCReport)() {
 	GCReport report = {
-		.a       = _btn.A,
-		.b       = _btn.B,
-		.x       = _btn.X,
-		.y       = _btn.Y,
+		.a       = _btn.B,
+		.b       = _btn.Y,
+		.x       = _btn.A,
+		.y       = _btn.X,
 		.start   = _btn.S,
 		.pad0    = 0,
 		.dLeft   = _btn.Dl,

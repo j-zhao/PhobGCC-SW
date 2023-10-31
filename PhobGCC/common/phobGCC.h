@@ -18,7 +18,7 @@ using std::max;
 //#include "../teensy/Phob1_1Teensy4_0DiodeShort.h"// For PhobGCC board 1.1 with Teensy 4.0 and the diode shorted
 //#include "../teensy/Phob1_2Teensy4_0.h"          // For PhobGCC board 1.2.x with Teensy 4.0
 //#include "../rp2040/include/PicoProtoboard.h"    // For a protoboard with a Pico on it, used for developing for the RP2040
-//#include "../rp2040/include/Phob2_0.h"           // For PhobGCC Board 2.0 with RP2040
+#include "../rp2041/include/Phob2_0.h"           // For PhobGCC Board 2.0 with RP2040
 
 #include "structsAndEnums.h"
 #include "variables.h"
@@ -52,7 +52,7 @@ ControlConfig _controls{
 	.rumble = 9,
 	.rumbleMin = 0,
 	.rumbleMax = 11,
-	.rumbleDefault = 9,//5 is the max for 3v cell rumble, 9 is for oem-feeling normal rumble motors
+	.rumbleDefault = 4,//5 is the max for 3v cell rumble, 9 is for oem-feeling normal rumble motors
 	.rumbleFactory = 9,
 	.safeMode = true,
 	.autoInit = false,
