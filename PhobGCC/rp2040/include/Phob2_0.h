@@ -11,16 +11,17 @@
 
 //defining which pin is what
 //GPIO
-const int _pinA  = 17;
-const int _pinB  = 16;
+// const int _pinA  = 17;
+const int _pinA  = 16;
+const int _pinB  = 19;
 const int _pinDr = 11;
 const int _pinDu = 9;
 const int _pinDl = 8;
 const int _pinDd = 10;
 const int _pinL  = 22;
 const int _pinR  = 21;
-const int _pinX  = 18;
-const int _pinY  = 19;
+const int _pinX  = 17;
+const int _pinY  = 18;
 const int _pinZ  = 20;
 const int _pinS  = 5;
 const int _pinRumble = 25;
